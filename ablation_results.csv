@@ -1,0 +1,7 @@
+condition,accuracy,precision,recall,f1_macro,mcc,gate_activation_rate,mean_confidence
+LSTM only,0.4785,0.5094,0.3211,0.4681,-0.026,,
+GRU only,0.4959,0.5216,0.5414,0.493,-0.0137,,
+TFT only,0.4785,0.5081,0.3715,0.4745,-0.0313,,
+Price ensemble (no gate),0.4803,0.5099,0.3953,0.4782,-0.0299,,
+Multimodal no gate,0.4803,0.5099,0.3953,0.4782,-0.0299,,
+Full framework,0.5284,0.5658,0.4581,0.5275,0.0657,0.1997,0.025
